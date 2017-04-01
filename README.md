@@ -1,19 +1,19 @@
-##Quick Grunt install
+## Quick Grunt install
 
 Steps to follow if you want to install and start working with Grunt in less than 5 minutes!
 
 ## What is Grunt?
 Grunt is a JavaScript task runner, a tool used to automatically perform frequently used tasks such as minification, compilation, unit testing, linting, etc.
 
-##Requirement
+## Requirement
 
 - [node.js](https://nodejs.org/en/)
 
-##Resource
+## Resource
 
 - [gruntjs.com](https://gruntjs.com/getting-started)
 
-##Plugins installed in this guide
+## Plugins installed in this guide
 - [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify) (Minify JavaScript files with UglifyJS)
 - [grunt-contrib-qunit](https://github.com/gruntjs/grunt-contrib-qunit) (Run QUnit unit tests in a headless PhantomJS instance)
 - [grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat) (Concatenate files)
@@ -24,7 +24,7 @@ Grunt is a JavaScript task runner, a tool used to automatically perform frequent
 
 More plugins can be foud here: [gruntjs.com](https://gruntjs.com/plugins)
 
-##Files structure
+## Files structure
 
 After completing all the guide steps, the file structure should look like this:
 
@@ -51,7 +51,7 @@ After completing all the guide steps, the file structure should look like this:
     └── package.json    
     
 
-##Steps by steps guide
+## Steps by steps guide
 
 
 **1. Check if npm is up-to-date**
@@ -197,4 +197,4 @@ To **save** and **exit** Gruntfile.js from the text editor vim, press **Esc** ke
 
 If everything works, you can start working on your project while Grunt is watching you!
 
-    grunt watch # grunt_starter
+    grunt watch
