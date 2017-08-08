@@ -171,7 +171,6 @@ then enter info about your project
            sass: {
              files: ['src/scss/*.scss'],
              tasks: ['sass']
-             }
            }
          }
        });
